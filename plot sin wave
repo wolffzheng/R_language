@@ -1,0 +1,9 @@
+> fs <- 10000;		//采样频率
+> t <- seq(0,1,1/fs);   //时间，0-1秒，以0.1ms为每一步
+> f1 <- 100;		//频率1
+> f2 <- 300;		//频率2
+> wave.1 <- sin(2*pi*f1*t)
+> wave.2 <- sin(2*pi*f2*t)
+> par(mfrow=c(2,1)); 	//图形参数设定，2行1列
+> plot(t,wave.1,type="l");plot(t,wave.2,type="l");//画图，type="l"表示用实线来画图
+
