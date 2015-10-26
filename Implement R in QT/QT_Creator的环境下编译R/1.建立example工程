@@ -1,0 +1,3 @@
+1.打开../RInside/inst/examples/qt/
+2.运行QT creator，打开qtdensity.pro（那是QT工程文件）
+3.编译，运行即可。

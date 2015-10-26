@@ -1,0 +1,1 @@
+因为有了这个现成的GNUmakefile，直接运行make,就会自动把sample.cpp编译成--->sample
